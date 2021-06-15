@@ -3,4 +3,7 @@ services:
                 image: infracloudio/csvserver
                 expose:
                        - "9393"     
-
+        prom:
+                image: prom/prometheus
+                expose:
+                       - "9090"           
