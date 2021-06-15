@@ -1,0 +1,6 @@
+services:
+        csv:
+                image: infracloudio/csvserver
+                expose:
+                       - "9393"     
+
